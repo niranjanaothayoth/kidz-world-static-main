@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Garamond", serif; /* Garamond font */
+  background-color: #faf3e0; /* Beige background */
+  text-align: center; /* Center text for mobile */
+}
+
+.books,
+.games,
+.crafts {
+  max-width: 100%; /* Adjusted max-width for responsiveness */
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap; /* Ensure flex items wrap on smaller screens */
+}
+
+.section-container {
+  padding: 5%;
+}
+
+.space-between {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+}
+
+nav>div {
+  padding: 0% 5%;
+}
+
+nav img {
+  height: 30px;
+}
+
+#cart {
+  font-weight: bold;
+  align-items: center;
+}
+
+header {
+  height: 200px; /* Adjusted height for mobile */
+  width: 100%;
+  background-image: url("./assets/kw-background.png");
+  background-size: cover; /* Ensure background image covers header */
+  color: white;
+  text-align: start; /* Align text to the left for mobile */
+}
+
+.header-text {
+  padding: 5%; /* Adjusted padding for mobile */
+  max-width: 100%; /* Adjusted max-width for mobile */
+}
+
+header h1 {
+  font-size: 4vh;
+}
+
+header h5 {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.section {
+  margin: 4% 0%;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #6095ff;
+  color: white;
+  padding: 7px;
+  border-radius: 4px;
+}
+
+.buy img {
+  width: 20px;
+  padding-left: 5px;
+}
+
+.buy {
+  margin-top: 15px;
+  padding-bottom: 50px;
+}
+
+footer {
+  background-image: url("http://i1.faceprep.in/prograd-junior/footer-bg.png");
+  background-size: cover; /* Ensure background image covers footer */
+  color: white;
+  padding: 0% 5%;
+}
+
+footer img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+#details {
+  text-align: right;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+h4 {
+  color: grey;
+  font-weight: lighter;
+}
+
+h6 {
+  font-size: 17px;
+}
+
+.buy p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h3,
+h2 {
+  margin-bottom: 10px;
+}
+
+.container {
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-text {
+    padding: 5%; /* Adjusted padding for smaller screens */
+  }
+
+  .container {
+    justify-content: center;
+  }
+}
